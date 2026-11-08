@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kupovina karata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Početna</a>
+    <a href="okoncertu.html">O koncertu</a>
+    <a href="kupovina.html">Kupovina</a>
+</nav>
+
+<h2>Kupovina karata</h2>
+
+<form id="kupovinaKarata">
+    <label for="imeiprezime">Ime i prezime:</label> <br>
+    <input type="text" id="imeiprezime" name="imeiprezime">
+
+    <br>
+
+    <label for="email">Email:</label> <br>
+    <input type="email" id="email" name="email">
+
+    <br><br>
+
+    <label for="brojKarata">Broj karata:</label><br>
+    <input type="number" id="brojKarata" min="1">
+
+    <br><br>
+    
+    
+    <h2>Vrsta karte:</h2>
+    <select id="vrstaKarte">
+        <option selected>Izaberi</option>
+        <option value="parter">parter</option>
+        <option value="istok">tribine-istok</option>
+        <option value="jug">tribine-jug</option>
+        <option value="zapad">tribine-zapad</option>
+        <option value="vip">VIP karte</option>
+    </select>
+
+    <br><br>
+
+    <label for="kod">Unesite kod za popust:</label> <br>
+    <input type="text" id="kod" name="kod">
+    <br>
+    <button type="button" id="dugmePopust">Primeni kod</button>
+
+    <br><br><br>
+
+    <button type="submit">Kupi kartu</button>
+
+    <p id="poruka"></p>
+   
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
