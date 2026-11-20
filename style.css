@@ -26,6 +26,10 @@ h1, h3{
     color:#f2f2f2;
 }
 
+p{
+    color: #f2f2f2;
+}
+
 ul li {
     list-style: none;
     color: brown;
@@ -49,4 +53,24 @@ button:hover {
 img{
     width:300px;
     height:200px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+footer p{
+    margin: 0;
+    font-size: 14px;
 }
